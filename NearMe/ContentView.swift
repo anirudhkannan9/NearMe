@@ -11,6 +11,8 @@ import CoreData
 struct ContentView: View {
     
     @State var searchText = ""
+    @State var isSearching = false
+    
     var body: some View {
         ZStack {
             //function that's the content argument to ZStack
@@ -19,17 +21,33 @@ struct ContentView: View {
                 Text("NearMe")
                     .font(.largeTitle)
                     .foregroundColor(Color.white)
-                //HStack {
+                HStack {
                 TextField("Find a product near you", text: $searchText)
+                    .padding(.leading, 24)
+                }
                     .padding()
                     .background(Color(.systemGray6))
+                    .cornerRadius(16)
                     .padding()
-                    .cornerRadius(12)
+                    .onTapGesture(perform: {
+                        isSearching = true
+                        
+                    })
+                    .overlay(
+                        HStack{
+                            Image(systemName: "magnifyingglass")
+                            Spacer()
+                            
+                            if isSearching {
+                                Button(action: { searchText = ""}, label: {
+                                    Image(systemName: "xmark.circle")
+                                })
+                            }
+                        }
+                        .padding(.horizontal, 32)
+                        .foregroundColor(.black)
+                    )
                 //}
-//                .padding()
-//                .background(Color(.systemGray6))
-//                .padding(.horizontal)
-//                .cornerRadius(12)
             }
         }
     }
