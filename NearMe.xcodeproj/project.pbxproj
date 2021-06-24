@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A79121D268447BF00C77FAE /* NearMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79121C268447BF00C77FAE /* NearMeApp.swift */; };
+		7A79121F268447BF00C77FAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79121E268447BF00C77FAE /* ContentView.swift */; };
+		7A791221268447C100C77FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A791220268447C100C77FAE /* Assets.xcassets */; };
+		7A791224268447C100C77FAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A791223268447C100C77FAE /* Preview Assets.xcassets */; };
+		7A791226268447C100C77FAE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A791225268447C100C77FAE /* Persistence.swift */; };
+		7A791229268447C100C77FAE /* NearMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A791227268447C100C77FAE /* NearMe.xcdatamodeld */; };
+		7A791234268447C200C77FAE /* NearMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A791233268447C200C77FAE /* NearMeTests.swift */; };
+		7A79123F268447C200C77FAE /* NearMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79123E268447C200C77FAE /* NearMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A791230268447C200C77FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A791211268447BF00C77FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A791218268447BF00C77FAE;
+			remoteInfo = NearMe;
+		};
+		7A79123B268447C200C77FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A791211268447BF00C77FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A791218268447BF00C77FAE;
+			remoteInfo = NearMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A791219268447BF00C77FAE /* NearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A79121C268447BF00C77FAE /* NearMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeApp.swift; sourceTree = "<group>"; };
+		7A79121E268447BF00C77FAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A791220268447C100C77FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A791223268447C100C77FAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A791225268447C100C77FAE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7A791228268447C100C77FAE /* NearMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearMe.xcdatamodel; sourceTree = "<group>"; };
+		7A79122A268447C100C77FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A79122F268447C200C77FAE /* NearMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A791233268447C200C77FAE /* NearMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeTests.swift; sourceTree = "<group>"; };
+		7A791235268447C200C77FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A79123A268447C200C77FAE /* NearMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A79123E268447C200C77FAE /* NearMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeUITests.swift; sourceTree = "<group>"; };
+		7A791240268447C200C77FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A791216268447BF00C77FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A79122C268447C200C77FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A791237268447C200C77FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A791210268447BF00C77FAE = {
+			isa = PBXGroup;
+			children = (
+				7A79121B268447BF00C77FAE /* NearMe */,
+				7A791232268447C200C77FAE /* NearMeTests */,
+				7A79123D268447C200C77FAE /* NearMeUITests */,
+				7A79121A268447BF00C77FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A79121A268447BF00C77FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A791219268447BF00C77FAE /* NearMe.app */,
+				7A79122F268447C200C77FAE /* NearMeTests.xctest */,
+				7A79123A268447C200C77FAE /* NearMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A79121B268447BF00C77FAE /* NearMe */ = {
+			isa = PBXGroup;
+			children = (
+				7A79121C268447BF00C77FAE /* NearMeApp.swift */,
+				7A79121E268447BF00C77FAE /* ContentView.swift */,
+				7A791220268447C100C77FAE /* Assets.xcassets */,
+				7A791225268447C100C77FAE /* Persistence.swift */,
+				7A79122A268447C100C77FAE /* Info.plist */,
+				7A791227268447C100C77FAE /* NearMe.xcdatamodeld */,
+				7A791222268447C100C77FAE /* Preview Content */,
+			);
+			path = NearMe;
+			sourceTree = "<group>";
+		};
+		7A791222268447C100C77FAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A791223268447C100C77FAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A791232268447C200C77FAE /* NearMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A791233268447C200C77FAE /* NearMeTests.swift */,
+				7A791235268447C200C77FAE /* Info.plist */,
+			);
+			path = NearMeTests;
+			sourceTree = "<group>";
+		};
+		7A79123D268447C200C77FAE /* NearMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A79123E268447C200C77FAE /* NearMeUITests.swift */,
+				7A791240268447C200C77FAE /* Info.plist */,
+			);
+			path = NearMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A791218268447BF00C77FAE /* NearMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A791243268447C200C77FAE /* Build configuration list for PBXNativeTarget "NearMe" */;
+			buildPhases = (
+				7A791215268447BF00C77FAE /* Sources */,
+				7A791216268447BF00C77FAE /* Frameworks */,
+				7A791217268447BF00C77FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearMe;
+			productName = NearMe;
+			productReference = 7A791219268447BF00C77FAE /* NearMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A79122E268447C200C77FAE /* NearMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A791246268447C200C77FAE /* Build configuration list for PBXNativeTarget "NearMeTests" */;
+			buildPhases = (
+				7A79122B268447C200C77FAE /* Sources */,
+				7A79122C268447C200C77FAE /* Frameworks */,
+				7A79122D268447C200C77FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A791231268447C200C77FAE /* PBXTargetDependency */,
+			);
+			name = NearMeTests;
+			productName = NearMeTests;
+			productReference = 7A79122F268447C200C77FAE /* NearMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A791239268447C200C77FAE /* NearMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A791249268447C200C77FAE /* Build configuration list for PBXNativeTarget "NearMeUITests" */;
+			buildPhases = (
+				7A791236268447C200C77FAE /* Sources */,
+				7A791237268447C200C77FAE /* Frameworks */,
+				7A791238268447C200C77FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A79123C268447C200C77FAE /* PBXTargetDependency */,
+			);
+			name = NearMeUITests;
+			productName = NearMeUITests;
+			productReference = 7A79123A268447C200C77FAE /* NearMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A791211268447BF00C77FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7A791218268447BF00C77FAE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7A79122E268447C200C77FAE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7A791218268447BF00C77FAE;
+					};
+					7A791239268447C200C77FAE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7A791218268447BF00C77FAE;
+					};
+				};
+			};
+			buildConfigurationList = 7A791214268447BF00C77FAE /* Build configuration list for PBXProject "NearMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A791210268447BF00C77FAE;
+			productRefGroup = 7A79121A268447BF00C77FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A791218268447BF00C77FAE /* NearMe */,
+				7A79122E268447C200C77FAE /* NearMeTests */,
+				7A791239268447C200C77FAE /* NearMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A791217268447BF00C77FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A791224268447C100C77FAE /* Preview Assets.xcassets in Resources */,
+				7A791221268447C100C77FAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A79122D268447C200C77FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A791238268447C200C77FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A791215268447BF00C77FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A791226268447C100C77FAE /* Persistence.swift in Sources */,
+				7A79121F268447BF00C77FAE /* ContentView.swift in Sources */,
+				7A79121D268447BF00C77FAE /* NearMeApp.swift in Sources */,
+				7A791229268447C100C77FAE /* NearMe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A79122B268447C200C77FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A791234268447C200C77FAE /* NearMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A791236268447C200C77FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A79123F268447C200C77FAE /* NearMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A791231268447C200C77FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A791218268447BF00C77FAE /* NearMe */;
+			targetProxy = 7A791230268447C200C77FAE /* PBXContainerItemProxy */;
+		};
+		7A79123C268447C200C77FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A791218268447BF00C77FAE /* NearMe */;
+			targetProxy = 7A79123B268447C200C77FAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A791241268447C200C77FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A791242268447C200C77FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A791244268447C200C77FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NearMe/Preview Content\"";
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NearMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.NearMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A791245268447C200C77FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NearMe/Preview Content\"";
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NearMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.NearMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A791247268447C200C77FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				INFOPLIST_FILE = NearMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.NearMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearMe.app/NearMe";
+			};
+			name = Debug;
+		};
+		7A791248268447C200C77FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				INFOPLIST_FILE = NearMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.NearMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearMe.app/NearMe";
+			};
+			name = Release;
+		};
+		7A79124A268447C200C77FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				INFOPLIST_FILE = NearMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.NearMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearMe;
+			};
+			name = Debug;
+		};
+		7A79124B268447C200C77FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				INFOPLIST_FILE = NearMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.NearMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A791214268447BF00C77FAE /* Build configuration list for PBXProject "NearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A791241268447C200C77FAE /* Debug */,
+				7A791242268447C200C77FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A791243268447C200C77FAE /* Build configuration list for PBXNativeTarget "NearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A791244268447C200C77FAE /* Debug */,
+				7A791245268447C200C77FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A791246268447C200C77FAE /* Build configuration list for PBXNativeTarget "NearMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A791247268447C200C77FAE /* Debug */,
+				7A791248268447C200C77FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A791249268447C200C77FAE /* Build configuration list for PBXNativeTarget "NearMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A79124A268447C200C77FAE /* Debug */,
+				7A79124B268447C200C77FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A791227268447C100C77FAE /* NearMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A791228268447C100C77FAE /* NearMe.xcdatamodel */,
+			);
+			currentVersion = 7A791228268447C100C77FAE /* NearMe.xcdatamodel */;
+			path = NearMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A791211268447BF00C77FAE /* Project object */;
+}
