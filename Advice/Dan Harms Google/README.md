@@ -1,0 +1,14 @@
+        - disclaimer — maybe a civil lawsuit or smth if I get big enough
+        - not getting blocked
+            - dimensions that they pool to see if you’re a person
+                - doing smth @ very specific intervals e.g. doing smth every even number versus adding a random element to your request (between 60-80s; anything over a couple second range is enough; the bigger the range, the blurrier the signal will get; if you aren’t time-sensitive you can do it over an hour)
+                - IP address for request
+                    - use a VPN or use a cloud data centre, which’ll have its own IP address (but if AWS hits their sites all the time they may get suspicious too) 
+            - persist this — clients aren’t pinging stores directly — 
+                - not data that will change per user, so good indicator that I want to pull into a central data, and then my users hit the cached copy of latest data
+        - there’re scraping libraries, bunch that are written in Python
+            - they’ll have the remain elusive functionality built into it
+            - don’t try and reinvent that wheel
+                - unless I’m very interested in this, intellectually
+    - for now, I could just load it, and no one would care
+        - it really shouldn’t increase that much anyway, if I do my job as a singleton it’ll be one request for the whole DB to update
