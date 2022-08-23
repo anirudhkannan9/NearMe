@@ -3,6 +3,8 @@ What physical products are available NearMe?
 
 POSSIBLE PROBLEM W PROMOTION: had planned to do it with doordash people. BUT THEY TYPICALLY ARE ASSIGNED TO GO TO ONE SPECIFIC BRANCH OF ONE SPECIFIC STORE -- SO THEY AREN'T GOING TO NEED THE ELSEWHERE FUNCTIONALITY
 
+Instacart/DD Drivers — Facebook groups, Reddit groups, Discord
+
 Motivating example:
 
 In May 2021, I had a minor surgery. The doctor advised that I get lots of protein to aid recovery. I was vegetarian at the time, so I was planning on relying on supplementation i.e. Muscle Milk. 
