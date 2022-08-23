@@ -35,30 +35,28 @@ Example query: https://stackoverflow.com/questions/27515341/how-can-i-list-which
 * Could build a first-slice approach
     * MVP: Canadian Tire, London Drugs, Best Buy. Most of the large grocery chains.
         * Already expose it
-
-
-	Find out how – Developer Tools in Chrome by loading up all the product pages
--	Why did BB decide to expose it?
-o	For retailers’ customers who want to know – destination based
-o	7-Eleven – spontaneous
-o	BB – big investment of time, money, big product – also risking health by entering a store
-o	At least exposing that availability information to give info – but many – not only can you see, you can reserve 
--	If I wanted to go down this route
-o	Go to all their websites – see if it says ‘in stock’ on product page. 
-o	If it’s on a publically accessible page – won’t need a key for sure
-o	Might need some dev skills to comb through to see what call is being made
--	Take a look @ grocery stores
-o	Most cases either a JSON call or an XML call
-o	If you understand those things, how API calls, practice making Postman collections if I haven’t done that before
-	Practice API programming, interpreting API outputs
--	Should know:
-o	Most retailers have rate limiters on APIs – make too many calls, will block you
-o	Blocks are ‘pretty smart’
-	Address
-	Geolocation
-	I.P address
-	Behavioural – e.g. if calling API directly too many times, it’s obviously a bot
-	Look for proxy addresses
+        * Find out how – Developer Tools in Chrome by loading up all the product pages
+* Why did BB decide to expose it?
+   * For retailers’ customers who want to know – destination based
+   * 7-Eleven – spontaneous
+   * BB – big investment of time, money, big product – also risking health by entering a store
+   * At least exposing that availability information to give info – but many – not only can you see, you can reserve 
+* If I wanted to go down this route
+   * Go to all their websites – see if it says ‘in stock’ on product page. 
+   * If it’s on a publically accessible page – won’t need a key for sure
+   * Might need some dev skills to comb through to see what call is being made
+* Take a look @ grocery stores
+   * Most cases either a JSON call or an XML call
+   * If you understand those things, how API calls, practice making Postman collections if I haven’t done that before
+      * Practice API programming, interpreting API outputs
+* Should know:
+   * Most retailers have rate limiters on APIs – make too many calls, will block you
+   * Blocks are ‘pretty smart’
+      * Address
+      * Geolocation
+      * I.P address
+      * Behavioural – e.g. if calling API directly too many times, it’s obviously a bot
+      * Look for proxy addresses
 
 
 
