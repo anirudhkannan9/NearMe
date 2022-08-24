@@ -1,7 +1,12 @@
 # NearMe
 What physical products are available NearMe?
 
-POSSIBLE PROBLEM W PROMOTION: had planned to do it with doordash people. BUT THEY TYPICALLY ARE ASSIGNED TO GO TO ONE SPECIFIC BRANCH OF ONE SPECIFIC STORE -- SO THEY AREN'T GOING TO NEED THE ELSEWHERE FUNCTIONALITY
+POSSIBLE PROBLEM W PROMOTION: had planned to do it with doordash people. BUT THEY TYPICALLY ARE ASSIGNED TO GO TO ONE SPECIFIC BRANCH OF ONE SPECIFIC STORE -- SO THEY AREN'T GOING TO NEED THE ELSEWHERE FUNCTIONALITY.
+
+Response: Yes, it can acc be useful. 
+* Driver can look @ see what's available; they can suggest the sub themselves
+    * Eventually: app can suggest sub
+* Driver can also send the app to the user; the USER can see what's available and suggest a sub
 
 Instacart/DD Drivers — Facebook groups, Reddit groups, Discord
 
