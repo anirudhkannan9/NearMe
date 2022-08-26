@@ -34,3 +34,37 @@ Instacart/DD Drivers — Facebook groups, Reddit groups, Discord
 
 
 * Sketch out the workflow/user flow; plan out all interactions, both from the user's perspective and then also from the POV of the backend as a singleton caching unit that operates independently of the users. THEN, from here, figure out the *absolute minimum* viable product.                
+
+** FB POST **: 
+Hi everyone, 
+
+I'm a student in Canada. 
+
+I'm building an app to help Instacart shoppers. 
+
+
+BACKGROUND: MAY 2021
+
+I had a minor surgery and the doctor told me to get lots of protein to recover. I was vegetarian and so I thought I'd get muscle milk to add protein to my diet. 
+
+I went to a bunch of nearby stores and none of them had muscle milk/anything similar. I thought it should be easier to know if a certain product is in stock at a store near you.
+
+
+APP: 
+
+You know how you can go to a grocery store's website and select which store location you want to shop from? When you do that, the website tells you which items are in stock as you browse their menu. 
+
+My app would collect a bunch of this real-time info about what's in stock at various stores. 
+
+You could go into the app, type in "muscle milk", and it would show you the nearby stores that have Muscle Milk, based on their websites.
+
+
+QUESTIONS:
+
+1. I know IC includes some stock information in the app when you order as a customer. Can shoppers see this info too? If so, how accurate is it?
+
+2. Would it help if you knew, in advance, if the store you're going to has the products you're shopping for in stock? 
+
+3. I know that Instacart has 3 options for substitutions: "Find Best Match", "Pick Specific Replacement", and "Don't Replace". In case the customer picks "Find Best Match", are you allowed to buy from a nearby store that does? If not, would you be willing and able to arrange doing this via messaging the customer, in exchange for a generous tip?
+
+4. Any general thoughts for me? 
